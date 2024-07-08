@@ -10,7 +10,6 @@ class TodoListItem extends StatelessWidget {
     required this.onDelete,
   });
 
-  //passa informação de um widget
   final Todo todo;
   final Function(Todo) onDelete;
 
